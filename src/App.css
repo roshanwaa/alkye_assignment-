@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@377&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.headline h1 {
+  font-family: 'Oswald', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.headline p {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 377;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
+}
+.navbarLine {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  width: 100%;
+  height: 2px;
+  background: #cccccc;
+}
+.connectedLine {
+  height: 2px;
+  background: #000000;
+}
+
+/* App.css */
+.bg-custom-background {
+  /* background-image: url('./assets/OurCulture.png'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.401), rgba(90, 89, 89, 0.368)),
+    url('./assets/OurCulture.png') no-repeat center;
+  background-repeat: no-repeat;
+}
+
+.angry-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: auto;
+  height: auto;
+  gap: 16px;
+}
+
+#item-0 {
+  background-color: #386641;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  width: fit-content;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  height: fit-content;
+}
+#item-1 {
+  width: fit-content;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  height: fit-content;
+  grid-row-end: 4;
+  grid-column-end: 4;
+}
+img,
+video {
+  max-width: none !important;
+  height: auto;
+}
+#item-2 {
+  background-color: #386641;
+  grid-row-start: 1;
+  grid-column-start: 3;
+  width: fit-content;
+  height: fit-content;
+  grid-row-end: 2;
+  grid-column-end: 4;
+}
+#item-3 {
+  background-color: #386641;
+  grid-row-start: 1;
+  grid-column-start: 4;
+  width: fit-content;
+  height: fit-content;
+  grid-row-end: 4;
+  grid-column-end: 5;
+}
+#item-4 {
+  background-color: #386641;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  width: fit-content;
+  height: fit-content;
+  grid-row-end: 5;
+  grid-column-end: 2;
+}
+#item-5 {
+  background-color: #386641;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  width: fit-content;
+  height: fit-content;
+  grid-row-end: 5;
+  grid-column-end: 5;
+}
+
+.customQuot {
+  font-family: 'Space Grotesk', sans-serif;
+  font-optical-sizing: auto;
+  line-height: unset !important;
+}
