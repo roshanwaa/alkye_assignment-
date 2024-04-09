@@ -61,3 +61,16 @@ To run the application, follow these steps:
 ## Technologies Used
 - React.js
 - Tailwind CSS
+
+
+# ASSIGNMENT FOR THE FRONTEND DEVELOPER ROLE BELOW TO DO:
+
+[Figma link](https://www.figma.com/file/NEZsb3YINrUx1aRJ9q1xOX/Landing-Test-Job?type=design&node-id=0-1&mode=design&t=aepB66LY1LbWEI9p-0)
+
+- Convert Figma to HTML/CSS/Responsive/jQuery/JavaScript. 
+- If you want to create this project in react.js you can.
+- Landing page Make header Sticky.
+- If you want to use a framework then you can use any CSS framework.
+- Also don't forget to make it a working carousel, tabs and mobile navigation.
+- Please share the code by GitHub on the LinkedIn message or given email: karandeep@alkye.com 
+- Please submit your assignment test within 7 days of receiving this test.
