@@ -1,8 +1,25 @@
-# React + Vite
+# React.js and Tailwind CSS Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+This project is a React.js application built using Tailwind CSS for styling. It consists of multiple components to create a cohesive web application. Below is a brief overview of each component:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Components
+
+# Navbar
+Displays navigation links for different sections of the application.
+Headline
+Renders a headline section with a title and description.
+Connected
+Represents a section related to staying connected.
+DiversityPage
+Displays content related to diversity and inclusion.
+SuccessPage
+Showcases content related to success stories.
+AppreciationPage
+Displays content expressing appreciation.
+StoryPage
+Represents a section dedicated to storytelling.
+GlobalBusiness
+Showcases information about global business initiatives.
+Footer
+Renders the footer section with links and copyright information.
